@@ -1,0 +1,37 @@
+
+	Shapiro-Wilk normality test
+
+data:  df_SS$P2X4
+W = 0.80596, p-value = 0.09053
+
+
+	Shapiro-Wilk normality test
+
+data:  df_IRS$P2X4
+W = 0.96082, p-value = 0.8137
+
+
+	Shapiro-Wilk normality test
+
+data:  df_SPCS$P2X4
+W = 0.7854, p-value = 0.06129
+
+
+	Shapiro-Wilk normality test
+
+data:  df_IRPCS$P2X4
+W = 0.83808, p-value = 0.1257
+
+Levene's Test for Homogeneity of Variance (center = median)
+      Df F value Pr(>F)
+group  3  1.4753 0.2567
+      17               
+# A tibble: 6 × 9
+  term  group1 group2 null.value estimate conf.low conf.high      p.adj p.adj.signif
+* <chr> <chr>  <chr>       <dbl>    <dbl>    <dbl>     <dbl>      <dbl> <chr>       
+1 Grupo IRPCS  IRS             0   0.795     0.446     1.14  0.0000314  ****        
+2 Grupo IRPCS  SPCS            0   0.0933   -0.256     0.443 0.871      ns          
+3 Grupo IRPCS  SS              0   0.943     0.594     1.29  0.00000354 ****        
+4 Grupo IRS    SPCS            0  -0.702    -1.07     -0.337 0.000223   ***         
+5 Grupo IRS    SS              0   0.148    -0.217     0.513 0.663      ns          
+6 Grupo SPCS   SS              0   0.85      0.485     1.21  0.0000237  ****        
