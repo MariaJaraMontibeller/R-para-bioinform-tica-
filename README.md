@@ -127,3 +127,14 @@ TukeyHSD(res.aov)
 df1 <- read.csv(file = "/home/jara/Downloads/exercicio_1.csv" , header = TRUE, sep = ";")
 head(df1)
 ```
+
+
+<p> <strong> DIA 01 </strong> <p>
+
+O teste F de homocedasticidade (2 grupos) verifica se as variâncias de dois ou mais grupos são iguais (homogêneas), sendo fundamental para validar ANOVA e testes t. Ele calcula a razão entre variâncias; um valor \(F\) próximo de 1 sugere homocedasticidade, enquanto valores altos indicam heterocedasticidade. A hipótese nula assume variâncias iguais.
+
+O  Teste de Levene  (3 ou mais grupos) é um método estatístico para avaliar a  igualdade de variâncias  entre dois ou mais grupos. Ele avalia se a variabilidade dos dados é consistente entre as categorias, o que é uma premissa fundamental em muitos  testes paramétricos . O Teste de Levene determina se os grupos apresentam variabilidade semelhante comparando os desvios em relação à média (ou mediana).O teste F de homocedasticidade (2 grupos) verifica se as variâncias de dois ou mais grupos são iguais (homogêneas), sendo fundamental para validar ANOVA e testes t. Ele calcula a razão entre variâncias; um valor \(F\) próximo de 1 sugere homocedasticidade, enquanto valores altos indicam heterocedasticidade. A hipótese nula assume variâncias iguais.
+
+O  Teste de Levene  (3 ou mais grupos) é um método estatístico para avaliar a  igualdade de variâncias  entre dois ou mais grupos. Ele avalia se a variabilidade dos dados é consistente entre as categorias, o que é uma premissa fundamental em muitos  testes paramétricos . O Teste de Levene determina se os grupos apresentam variabilidade semelhante comparando os desvios em relação à média (ou mediana).O teste F de homocedasticidade (2 grupos) verifica se as variâncias de dois ou mais grupos são iguais (homogêneas), sendo fundamental para validar ANOVA e testes t. Ele calcula a razão entre variâncias; um valor \(F\) próximo de 1 sugere homocedasticidade, enquanto valores altos indicam heterocedasticidade. A hipótese nula assume variâncias iguais.
+
+O  Teste de Levene  (3 ou mais grupos) é um método estatístico para avaliar a  igualdade de variâncias  entre dois ou mais grupos. Ele avalia se a variabilidade dos dados é consistente entre as categorias, o que é uma premissa fundamental em muitos  testes paramétricos . O Teste de Levene determina se os grupos apresentam variabilidade semelhante comparando os desvios em relação à média (ou mediana).
